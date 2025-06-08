@@ -35,6 +35,7 @@ export default function PriceTable() {
 
   useEffect(() => {
     async function fetchData() {
+      console.log("Fetching data...");
       try {
         const res = await fetch(
           "https://osrs-price-fetching-assignment.onrender.com/items-with-prices"
@@ -47,6 +48,7 @@ export default function PriceTable() {
     }
 
     fetchData();
+    setInterval(fetchData, 10000);
     // setData(dataDummy);
   }, []);
   //   const formatNumber = (num) => num.toLocaleString("en-US");
