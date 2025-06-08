@@ -1,5 +1,6 @@
 from app.database import Base, engine
-from app import models  # this ensures all models are registered
+from app import models
+
 
 Base.metadata.create_all(bind=engine)
 

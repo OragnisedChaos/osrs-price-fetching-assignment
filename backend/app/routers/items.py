@@ -20,6 +20,13 @@ def sync_items_task():
                 name=item["name"],
                 examine=item.get("examine", ""),
                 members=item.get("members", "false"),
+                lowalch=item.get("lowalch", 0),
+                limit=item.get("limit", 0),
+                value=item.get("value", 0),
+                highalch=item.get("highalch", 0),
+                icon=item.get("icon", "")
+                
             )
             db.add(new_item)
     db.commit()
+
