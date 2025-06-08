@@ -27,9 +27,9 @@ class ItemWithPriceSchema(BaseModel):
     icon: Optional[str]
     last_updated: Optional[datetime]
     high: Optional[float]
-    highTime: Optional[int]
+    highTime: Optional[str]
     low: Optional[float]
-    lowTime: Optional[int]
+    lowTime: Optional[str]
 
     class Config:
         orm_mode = True

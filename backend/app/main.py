@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from apscheduler.schedulers.background import BackgroundScheduler
-from app.routers import items, prices , items_with_prices  # only if you need routes to expose data to frontend
+from app.routers import items, prices , items_with_prices
 
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -9,7 +9,7 @@ app = FastAPI()
 # Add CORS middleware here
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Or ["*"] for dev only
+    allow_origins=["*"], 
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
