@@ -36,7 +36,9 @@ export default function PriceTable() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const res = await fetch("http://127.0.0.1:8000/items-with-prices");
+        const res = await fetch(
+          "https://osrs-price-fetching-assignment.onrender.com/items-with-prices"
+        );
         const json = await res.json();
         setData(json);
       } catch (err) {
