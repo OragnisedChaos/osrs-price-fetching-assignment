@@ -223,6 +223,6 @@ app.add_middleware(
 ## 📬 Contact
 
 Built with ❤️ by Prakhar Verma  
-Feel free to reach out on [LinkedIn](https://www.linkedin.com/pv2908) or email me if you'd like to contribute or ask anything.
+Feel free to reach out on [LinkedIn](https://www.linkedin.com/in/pv2908/) or email me if you'd like to contribute or ask anything.
 
 ---
