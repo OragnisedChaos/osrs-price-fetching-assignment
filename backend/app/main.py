@@ -15,6 +15,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
+@app.get("/")
+def root():
+    return {"message": "Hello from FastAPI on Railway!"}
+
 # If you want API endpoints to fetch items/prices, keep routers:
 # app.include_router(items.router)
 app.include_router(items_with_prices.router)
