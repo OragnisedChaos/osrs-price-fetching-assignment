@@ -1,6 +1,6 @@
 # 🧙‍♂️ OSRS Price Tracker
 
-A full-stack web application that displays live-updating Old School RuneScape (OSRS) item prices using a FastAPI backend and a React frontend. The prices are synced from the official OSRS Wiki API every 30 seconds and displayed in a searchable, sortable, paginated table.
+A full-stack web application that displays live-updating Old School RuneScape (OSRS) item prices using a FastAPI backend and a React frontend. The prices are synced from the official OSRS Wiki API every 30 seconds and displayed in a searchable, paginated table.
 
 ---
 
